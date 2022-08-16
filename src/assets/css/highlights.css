@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    background-color: #1d1d1d;
+}
+
+header {
+    background-image: url("https://res.cloudinary.com/db5heyxmd/image/upload/v1660658289/%D1%87/simplehigh_cupl50.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato';
+    padding-top: 20px;
+}
+
+.header-container {
+    width: 95%;
+    margin: auto;
+}
+
+
+.header-big-text {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+footer {
+    padding-top: 50px;
+}
+
+.footer-container {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.me {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.me a {
+    color: #fff800;
+    font-weight: 700;
+}
+
+
+.copyright {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+
+.bio-title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.bio-title span {
+    color: #868686;
+    border-radius: 15px;
+    border-top: 15px solid #000;
+    border-bottom: 15px solid #ffb000;
+    display: inline-block;
+}
+
+.bio-title {
+    margin-top: 30px;
+}
+
+.teams-container {
+    width: 95%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.teams-title {
+    text-align: center;
+}
+
+.teams-title span {
+    color: #868686;
+    border-radius: 15px;
+    border-top: 15px solid #000;
+    border-bottom: 15px solid #ffb000;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.teams-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.team-block-img {
+    width: 250px;
+    height: 150px;
+}
+
+.team-block {
+    width: 270px;
+    transition: .3s linear;
+    cursor: pointer;
+    padding: 10px;
+    margin: 15px;
+}
+
+.team-block-name {
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+
+.team-block-title {
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+
+.team-block:hover {
+    border-radius: 10px;
+
+}
+
+.team-block:hover .team-block-name {
+    background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+    background-size: 200% auto;
+
+    color: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 1s linear infinite;
+}
+
+
+footer {
+    padding-top: 50px;
+}
+
+.footer-container {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.me {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.me a {
+    color: #fff800;
+    font-weight: 700;
+}
+
+
+.copyright {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+@media all and (max-width: 1100px) {
+    .teams-flex {
+        flex-wrap: wrap;
+    }
+
+    .team-block-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .teams-title span {
+        font-size: 35px;
+    }
+
+    .team-block {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .team-block-img {
+        width: 250px;
+    }
+}
+
+
+@media all and (max-width: 865px) {
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .bio-title {
+        font-size: 35px;
+    }
+
+    .wiki-text {
+        margin-top: 20px;
+        font-size: 23px;
+    }
+
+
+}
+
+@media all and (max-width: 580px) {
+    .bio-title {
+        padding-bottom: 30px;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .sec-menu-title {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    .simple_img {
+        height: 317px;
+    }
+
+    .header-big-text {
+        font-size: 50px;
+    }
+
+    .wiki-text {
+        width: 200px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .teams-container {
+        padding-top: 60px;
+    }
+
+    .teams-flex {
+        justify-content: center;
+    }
+
+    .team-block-img {
+        margin-top: 15px;
+    }
+
+    .team-block-img {
+        width: 270px;
+    }
+}
