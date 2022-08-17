@@ -287,7 +287,9 @@ footer {
     .wiki-btn {
         margin-top: 10px;
     }
-
+.team-block{
+    margin-left: 0;
+    }
 
     .bio-title {
         padding-bottom: 30px;
